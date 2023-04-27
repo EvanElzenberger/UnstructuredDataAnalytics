@@ -24,17 +24,16 @@ Exam Highlights:
 - The exam emphasizes the importance of understanding Airbnb guests' experiences through textual reviews rather than numerical ratings.
 - IBM SPSS Modeler is utilized for text analytics, requiring adjustments in settings to optimize performance.
 - The "Opinion(English)" resource template is chosen for accurate analysis, providing predetermined weighting on words and phrases to extract types, concepts, and categories.
-- A concept model is built to identify the most frequent concepts in the reviews, with common concepts like excellent, place, location, comfortable, stay, and clean. ![Concept Model](https://user-images.githubusercontent.com/121822843/235010444-2179bbf4-1cc3-42a5-bd4d-fcc5c2411cfe.png)
+- A concept model is built to identify the most frequent concepts in the reviews, with common concepts like excellent, place, location, comfortable, stay, and clean. 
+![Concept Model](https://user-images.githubusercontent.com/121822843/235010444-2179bbf4-1cc3-42a5-bd4d-fcc5c2411cfe.png)
 
 - The most frequent concept within the "Contextual" type is determined using a distribution graph, revealing the associated terms and their implications.
 
 ![Concept Model Dist 1](https://user-images.githubusercontent.com/121822843/235010960-a637b26a-ebb7-4c9e-9149-b38e56e30e21.png) 
-![Concept Model Dist 2](https://user-images.githubusercontent.com/121822843/235011008-c08e59fc-464e-40e0-8b4b-5472a24f522b.png)
 
-- The dominating concept type, excluding "Unknown" is identified as "Positive".
-- Text link analysis is conducted, leading to the discovery of multiple patterns, with the second top pattern being <Unknown> & <Positive>.
-- Concepts strongly linked with reviewers' positive terms are explored, indicating concepts such as excellent appearing in a significant percentage of documents.
+- Text link analysis is conducted, leading to the discovery of multiple patterns. Concepts strongly linked with reviewers' positive terms are explored, indicating concepts such as excellent appearing in a significant percentage of documents.
 - A new category, "Excellent Stay," is created using concepts from a meaningful cluster, but the categorization is questioned based on the relevance of included concepts.
+![Pattern Recognition](https://user-images.githubusercontent.com/121822843/235011735-fc71cade-56ce-4aaf-839d-34eb57369aae.png)
 - Linguistic-based categorization is employed to create meaningful categories, comparing methods like concept inclusion and semantic network.
 - Frequency-based categories are generated, considering settings like the minimum records/doc. count and descriptors at concept or type level.
 - Manual creation of categories using conditional rules is performed, followed by model generation to include these categories.
