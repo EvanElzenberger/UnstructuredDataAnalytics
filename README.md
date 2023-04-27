@@ -33,7 +33,10 @@ Exam Highlights:
 
 - Text link analysis is conducted, leading to the discovery of multiple patterns. Concepts strongly linked with reviewers' positive terms are explored, indicating concepts such as excellent appearing in a significant percentage of documents.
 - A new category, "Excellent Stay," is created using concepts from a meaningful cluster, but the categorization is questioned based on the relevance of included concepts.
+
 ![Pattern Recognition](https://user-images.githubusercontent.com/121822843/235011735-fc71cade-56ce-4aaf-839d-34eb57369aae.png)
+![Picture6](https://user-images.githubusercontent.com/121822843/235012111-5571bdbd-aee2-431e-b2a3-38d7e1abf64b.png)
+
 - Linguistic-based categorization is employed to create meaningful categories, comparing methods like concept inclusion and semantic network.
 - Frequency-based categories are generated, considering settings like the minimum records/doc. count and descriptors at concept or type level.
 - Manual creation of categories using conditional rules is performed, followed by model generation to include these categories.
