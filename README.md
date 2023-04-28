@@ -40,3 +40,45 @@ Explores the concepts and management of big data projects, text analytics, natur
 - Three types of categorization are completed with manual rule edits such as, the term "bed" can be associated with either a positive OR negative qualifier. Since the category is "Excellent stay", it indicates a combination of an entity (related to stay) and a qualifier (related to excellent. Therefore, a rule with an "and" operator would be more appropriate. For example bed & excellent 
   - Linguistic-based categorization is employed to create meaningful categories, comparing methods like concept inclusion and semantic network.
   - Frequency-based categories are generated, considering settings like the minimum records/doc. count and descriptors at concept or
+
+## NodeXL Exam Grade: 90%
+- This exam focuses on conducting a Social Network Analysis (SNA) of the Facebook fan pages of two NFL teams, Denver Broncos and Carolina Panthers. The goal is to analyze the fan networks and their interactions. The analysis aims to identify the differences between the two teams' fan networks, determine the most active and important fans, and provide suggestions for improving sports teams' social media campaigns based on the SNA findings.
+
+### Data Source: Colorado [Broncos Facebook Fan-page](https://www.facebook.com/Broncos)
+             Carolina [Panthers Facebook Fan-page](https://www.facebook.com/CarolinaPanthers)
+
+### Exam Highlights: 
+- The analysis begins with data preparation and summary, including merging duplicate edges and calculating various metrics such as unique edges, unique vertices, graph density, and edge weight range. Data was not normalized, rusulting in difficulty comparing absolute values.
+- Network graphs and statistics are generated using the Harel-Koren Fast Multiscale method, highlighting the differences in the fan networks (fan groups) of the two teams. Broncos shown first have 58 groups and Panthers shown second have 16 groups. Broncos data had almost twice the number of posts, which likely reached a wider range of people and thus the actors have a wider range of sub relations. Panthers have less groups, but more connected
+
+![Harel-Koren Fast Multiscale Broncos](https://user-images.githubusercontent.com/121822843/235029559-0b973398-1e99-4c27-9d5a-a298e0c83d21.png)
+![Harel-Koren Fast Multiscale Panthers](https://user-images.githubusercontent.com/121822843/235029563-48042ec0-be7d-4515-91b3-86325f1b9c82.png)
+
+- Network metrics like Betweenness Centrality, Closeness Centrality, and Eigenvector Centrality are calculated and visualized through histograms.
+- Dynamic filters are applied to explore networks with different edge weight thresholds.
+- Sub-networks are created by filtering the networks based on edge weight, and their metrics are summarized.
+- Visualizations of the sub-networks are generated, showcasing important fans based on centrality metrics.
+- Broncos Top Fans (Last names removed for privacy)
+  - Renee H.
+  - Tammy W.
+  - Jayden S.
+  - James J.
+  - Benjamin B.
+  - Joe A.
+
+![Sub-network Broncos](https://user-images.githubusercontent.com/121822843/235030897-dbaa0a56-4d51-4a8b-b712-3c3ecf988d21.png)
+
+- Panthers Top Fans (Last names removed for privacy)
+  - Lisa L.
+  - Christopher T.
+  - Andrew L.
+  - Donna S.
+  - Anna S.
+  - Carolina Panthers (Facebook-page Administrator)
+  - Rachit D.
+  - Bobby G.
+
+![Sub-network Panthers](https://user-images.githubusercontent.com/121822843/235030900-6f57e0f4-a1c8-4761-bf3c-ec7f90d3e226.png)
+
+- Strategies for enhancing the social media campaigns are discussed, including engaging important fans and identifying potential spammers.
+- Insights and recommendations are provided for sports teams' social media campaigns based on the overall analysis.
