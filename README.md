@@ -3,17 +3,15 @@ Course Description: Explores the concepts and management of big data projects, t
 
 Learning Outcomes:
 - Identify and list terminology and considerations for big data projects.
-- Perform text analysis on textual data.
-- Perform network analysis on appropriate data.
+- Perform sentiment analysis on textual data.
+- Perform network analysis on categorized data.
 - Implement social media analytics using appropriate tools.
 - Recognize the benefits of combining disparate data sources for business decisions.
 
 Software:
 - IBM SPSS Modeler
-- Microsoft Excel
-- Other open-source software
-- NodeXL
-
+- Microsoft Excel with NodeXL Developed by Social Media Research Foundation
+- Open-source software such as [VADER](https://github.com/cjhutto/vaderSentiment) 
 
 IBM SPSS Modeler Exam Grade: 92%
 - The provided exam focuses on performing text analytics using IBM SPSS Modeler on Airbnb reviews for listings in Denver. The goal is to extract insights from textual reviews and understand guests' experiences with Airbnb hosts. The exam covers various aspects of text mining, concept modeling, category modeling, text link analysis, and linguistic-based categorization. Exam used old dataset of reviews between August 2018 to December 2019.
@@ -35,9 +33,11 @@ Exam Highlights:
 - A new category, "Excellent Stay," is created using concepts from a meaningful cluster, but the categorization is questioned based on the relevance of included concepts.
 
 ![Pattern Recognition](https://user-images.githubusercontent.com/121822843/235011735-fc71cade-56ce-4aaf-839d-34eb57369aae.png)
-![Picture6](https://user-images.githubusercontent.com/121822843/235012111-5571bdbd-aee2-431e-b2a3-38d7e1abf64b.png)
 
-- Linguistic-based categorization is employed to create meaningful categories, comparing methods like concept inclusion and semantic network.
-- Frequency-based categories are generated, considering settings like the minimum records/doc. count and descriptors at concept or type level.
-- Manual creation of categories using conditional rules is performed, followed by model generation to include these categories.
+- Three types of categorization are completed with manual rule edits such as, the term "bed" can be associated with either a positive OR negative qualifier. Since the category is "Excellent stay", it indicates a combination of an entity (related to stay) and a qualifier (related to excellent. Therefore, a rule with an "and" operator would be more appropriate. For example bed & excellent 
+  - Linguistic-based categorization is employed to create meaningful categories, comparing methods like concept inclusion and semantic network.
+  - Frequency-based categories are generated, considering settings like the minimum records/doc. count and descriptors at concept or type level.
+  - Manual creation of categories using conditional rules is performed, followed by model generation to include these categories.
 - Suggestions for further analysis include revisiting TAP Opinions and Text Link Analysis, incorporating custom categories, and exploring distribution graphs to understand category recognition frequencies.
+
+
