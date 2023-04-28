@@ -16,7 +16,7 @@ Explores the concepts and management of big data projects, text analytics, natur
 - Open-source software such as [VADER](https://github.com/cjhutto/vaderSentiment)
 
 ## IBM SPSS Modeler Exam Grade: 92%
-- The provided exam focuses on performing text analytics using IBM SPSS Modeler on Airbnb reviews for listings in Denver. The goal is to extract insights from textual reviews and understand guests' experiences with Airbnb hosts. The exam covers various aspects of text mining, concept modeling, category modeling, text link analysis, and linguistic-based categorization. Exam used old dataset of reviews between August 2018 to December 2019.
+The provided exam focuses on performing text analytics using IBM SPSS Modeler on Airbnb reviews for listings in Denver. The goal is to extract insights from textual reviews and understand guests' experiences with Airbnb hosts. The exam covers various aspects of text mining, concept modeling, category modeling, text link analysis, and linguistic-based categorization. Exam used old dataset of reviews between August 2018 to December 2019.
 
 ### Data Source: InsideAirBnB.com [Data Set Link](http://insideairbnb.com/get-the-data/)
 
@@ -42,11 +42,11 @@ Explores the concepts and management of big data projects, text analytics, natur
   - Frequency-based categories are generated, considering settings like the minimum records/doc. count and descriptors at concept or
 
 ## NodeXL Exam Grade: 90%
-- This exam focuses on conducting a Social Network Analysis (SNA) of the Facebook fan pages of two NFL teams, Denver Broncos and Carolina Panthers. The goal is to analyze the fan networks and their interactions. The analysis aims to identify the differences between the two teams' fan networks, determine the most active and important fans, and provide suggestions for improving sports teams' social media campaigns based on the SNA findings.
+This exam focuses on conducting a Social Network Analysis (SNA) of the Facebook fan pages of two NFL teams, Denver Broncos and Carolina Panthers. The goal is to analyze the fan networks and their interactions. The analysis aims to identify the differences between the two teams' fan networks, determine the most active and important fans, and provide suggestions for improving sports teams' social media campaigns based on the SNA findings.
 
-### Data Source: Colorado [Broncos Facebook Fan-page](https://www.facebook.com/Broncos) & Carolina [Panthers Facebook Fan-page](https://www.facebook.com/CarolinaPanthers)
+#### Data Source: Colorado [Broncos Facebook Fan-page](https://www.facebook.com/Broncos) & Carolina [Panthers Facebook Fan-page](https://www.facebook.com/CarolinaPanthers)
 
-### Exam Highlights: 
+#### Exam Highlights: 
 - The analysis begins with data preparation and summary, including merging duplicate edges and calculating various metrics such as unique edges, unique vertices, graph density, and edge weight range. Data was not normalized, rusulting in difficulty comparing absolute values.
 - Network graphs and statistics are generated using the Harel-Koren Fast Multiscale method, highlighting the differences in the fan networks (fan groups) of the two teams. Broncos shown first have 58 groups and Panthers shown second have 16 groups. Broncos data had almost twice the number of posts, which likely reached a wider range of people and thus the actors have a wider range of sub relations. Panthers have less groups, but more connected
 
