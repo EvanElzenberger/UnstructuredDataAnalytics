@@ -13,7 +13,7 @@ Explores the concepts and management of big data projects, text analytics, natur
 ## Software:
 - IBM SPSS Modeler
 - Microsoft Excel with NodeXL developed by Social Media Research Foundation
-- Open-source software such as [VADER](https://github.com/cjhutto/vaderSentiment)
+- Open-source software [VADER](https://github.com/cjhutto/vaderSentiment)
 
 ## IBM SPSS Modeler Exam Grade: 92%
 The provided exam focuses on performing text analytics using IBM SPSS Modeler on Airbnb reviews for listings in Denver. The goal is to extract insights from textual reviews and understand guests' experiences with Airbnb hosts. The exam covers various aspects of text mining, concept modeling, category modeling, text link analysis, and linguistic-based categorization. Exam used old dataset of reviews between August 2018 to December 2019.
