@@ -11,7 +11,7 @@ Learning Outcomes:
 Software:
 - IBM SPSS Modeler
 - Microsoft Excel with NodeXL developed by Social Media Research Foundation
-- Open-source software such as [VADER](https://github.com/cjhutto/vaderSentiment) 
+- Open-source software such as [VADER](https://github.com/cjhutto/vaderSentiment)
 
 IBM SPSS Modeler Exam Grade: 92%
 - The provided exam focuses on performing text analytics using IBM SPSS Modeler on Airbnb reviews for listings in Denver. The goal is to extract insights from textual reviews and understand guests' experiences with Airbnb hosts. The exam covers various aspects of text mining, concept modeling, category modeling, text link analysis, and linguistic-based categorization. Exam used old dataset of reviews between August 2018 to December 2019.
@@ -46,17 +46,38 @@ NodeXL Exam Grade: 90%
 Data Source: Colorado [Broncos Facebook Fan-page](https://www.facebook.com/Broncos)
              Carolina [Panthers Facebook Fan-page](https://www.facebook.com/CarolinaPanthers)
 
-Exam Highlights
-- The analysis begins with data preparation and summary, including merging duplicate edges and calculating various metrics such as unique edges, unique vertices, graph density, and edge weight range.
-- Network graphs are generated using the Harel-Koren Fast Multiscale method, highlighting the differences in the fan networks (fan groups) of the two teams.
+Exam Highlights 
+- The analysis begins with data preparation and summary, including merging duplicate edges and calculating various metrics such as unique edges, unique vertices, graph density, and edge weight range. Data was not normalized, rusulting in difficulty comparing absolute values.
+- Network graphs and statistics are generated using the Harel-Koren Fast Multiscale method, highlighting the differences in the fan networks (fan groups) of the two teams. Broncos shown first have 58 groups and Panthers shown second have 16 groups. Broncos data had almost twice the number of posts, which likely reached a wider range of people and thus the actors have a wider range of sub relations. Panthers have less groups, but more connected
 
 ![Harel-Koren Fast Multiscale Broncos](https://user-images.githubusercontent.com/121822843/235029559-0b973398-1e99-4c27-9d5a-a298e0c83d21.png)
 ![Harel-Koren Fast Multiscale Panthers](https://user-images.githubusercontent.com/121822843/235029563-48042ec0-be7d-4515-91b3-86325f1b9c82.png)
 
 - Network metrics like Betweenness Centrality, Closeness Centrality, and Eigenvector Centrality are calculated and visualized through histograms.
 - Dynamic filters are applied to explore networks with different edge weight thresholds.
-- The networks are grouped using the Clauset-Newman-Moore algorithm, identifying distinct groups within each team's fan network.
 - Sub-networks are created by filtering the networks based on edge weight, and their metrics are summarized.
 - Visualizations of the sub-networks are generated, showcasing important fans based on centrality metrics.
+- Broncos Top Fans (Last names removed for privacy)
+  - Renee H.
+  - Tammy W.
+  - Jayden S.
+  - James J.
+  - Benjamin B.
+  - Joe A.
+
+![Sub-network Broncos](https://user-images.githubusercontent.com/121822843/235030897-dbaa0a56-4d51-4a8b-b712-3c3ecf988d21.png)
+
+- Panthers Top Fans (Last names removed for privacy)
+  - Lisa L.
+  - Christopher T.
+  - Andrew L.
+  - Donna S.
+  - Anna S.
+  - Carolina Panthers (Facebook-page Administrator)
+  - Rachit D.
+  - Bobby G.
+
+![Sub-network Panthers](https://user-images.githubusercontent.com/121822843/235030900-6f57e0f4-a1c8-4761-bf3c-ec7f90d3e226.png)
+
 - Strategies for enhancing the social media campaigns are discussed, including engaging important fans and identifying potential spammers.
 - Insights and recommendations are provided for sports teams' social media campaigns based on the overall analysis.
