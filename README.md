@@ -10,13 +10,13 @@ Learning Outcomes:
 
 Software:
 - IBM SPSS Modeler
-- Microsoft Excel with NodeXL Developed by Social Media Research Foundation
+- Microsoft Excel with NodeXL developed by Social Media Research Foundation
 - Open-source software such as [VADER](https://github.com/cjhutto/vaderSentiment) 
 
 IBM SPSS Modeler Exam Grade: 92%
 - The provided exam focuses on performing text analytics using IBM SPSS Modeler on Airbnb reviews for listings in Denver. The goal is to extract insights from textual reviews and understand guests' experiences with Airbnb hosts. The exam covers various aspects of text mining, concept modeling, category modeling, text link analysis, and linguistic-based categorization. Exam used old dataset of reviews between August 2018 to December 2019.
 
-Data: Provided by InsideAirBnB.com [Data Set Link](http://insideairbnb.com/get-the-data/)
+Data Source: InsideAirBnB.com [Data Set Link](http://insideairbnb.com/get-the-data/)
 
 Exam Highlights:
 - The exam emphasizes the importance of understanding Airbnb guests' experiences through textual reviews rather than numerical ratings.
@@ -40,4 +40,23 @@ Exam Highlights:
   - Manual creation of categories using conditional rules is performed, followed by model generation to include these categories.
 - Suggestions for further analysis include revisiting TAP Opinions and Text Link Analysis, incorporating custom categories, and exploring distribution graphs to understand category recognition frequencies.
 
+NodeXL Exam Grade: 90%
+- This exam focuses on conducting a Social Network Analysis (SNA) of the Facebook fan pages of two NFL teams, Denver Broncos and Carolina Panthers. The goal is to analyze the fan networks and their interactions. The analysis aims to identify the differences between the two teams' fan networks, determine the most active and important fans, and provide suggestions for improving sports teams' social media campaigns based on the SNA findings.
 
+Data Source: Colorado [Broncos Facebook Fan-page](https://www.facebook.com/Broncos)
+             Carolina [Panthers Facebook Fan-page](https://www.facebook.com/CarolinaPanthers)
+
+Exam Highlights
+- The analysis begins with data preparation and summary, including merging duplicate edges and calculating various metrics such as unique edges, unique vertices, graph density, and edge weight range.
+- Network graphs are generated using the Harel-Koren Fast Multiscale method, highlighting the differences in the fan networks (fan groups) of the two teams.
+
+![Harel-Koren Fast Multiscale Broncos](https://user-images.githubusercontent.com/121822843/235029559-0b973398-1e99-4c27-9d5a-a298e0c83d21.png)
+![Harel-Koren Fast Multiscale Panthers](https://user-images.githubusercontent.com/121822843/235029563-48042ec0-be7d-4515-91b3-86325f1b9c82.png)
+
+- Network metrics like Betweenness Centrality, Closeness Centrality, and Eigenvector Centrality are calculated and visualized through histograms.
+- Dynamic filters are applied to explore networks with different edge weight thresholds.
+- The networks are grouped using the Clauset-Newman-Moore algorithm, identifying distinct groups within each team's fan network.
+- Sub-networks are created by filtering the networks based on edge weight, and their metrics are summarized.
+- Visualizations of the sub-networks are generated, showcasing important fans based on centrality metrics.
+- Strategies for enhancing the social media campaigns are discussed, including engaging important fans and identifying potential spammers.
+- Insights and recommendations are provided for sports teams' social media campaigns based on the overall analysis.
