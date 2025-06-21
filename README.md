@@ -3,7 +3,7 @@
 ## Course Description:
 Explores the concepts and management of big data projects, text analytics, natural language processing, social network analysis, and social media analytics. Focuses on using social data and combining disparate data sources for business decisions.
 
-## Skills Learned:
+## Learning Outcomes:
 - Identify and list terminology and considerations for big data projects.
 - Perform sentiment analysis on textual data.
 - Perform network analysis on categorized data.
