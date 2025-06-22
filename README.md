@@ -1,6 +1,6 @@
 # Unstructured Data Analytics
 
-## Course Description:
+## 📚 Course Description:
 Explores the concepts and management of big data projects, text analytics, natural language processing, social network analysis, and social media analytics. Focuses on using social data and combining disparate data sources for business decisions.
 
 ## Learning Outcomes:
