@@ -3,14 +3,14 @@
 ## 📚 Course Description:
 Explores the concepts and management of big data projects, text analytics, natural language processing, social network analysis, and social media analytics. Focuses on using social data and combining disparate data sources for business decisions.
 
-## Learning Outcomes:
+## 🎯 Learning Outcomes:
 - Identify and list terminology and considerations for big data projects.
 - Perform sentiment analysis on textual data.
 - Perform network analysis on categorized data.
 - Implement social media analytics using appropriate tools.
 - Recognize the benefits of combining disparate data sources for business decisions.
 
-## Software:
+## 🛠 Software:
 - IBM SPSS Modeler
 - Microsoft Excel with NodeXL developed by Social Media Research Foundation
 - Open-source software [VADER](https://github.com/cjhutto/vaderSentiment)
